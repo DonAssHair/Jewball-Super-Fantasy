@@ -7,7 +7,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Welcome to Jewball Super Fantasy League! A place for the Jewballers to step onto the gridiron and forge their own glory through rivalry, brotherhood, blockbuster trades, and landmark rookie drafts.</p>
+  <p>Welcome to Jewball Super Fantasy League™! A place for the Jewballers to step onto the gridiron and forge their own glory through rivalry, brotherhood, blockbuster trades, and landmark rookie drafts.</p>
   <p>Stepping into Jewball Super Fantasy League is stepping into the land of dynasty builder Jewballers, contending Jewballers, and once great Jewballers, fallen from grace and forced to start over once more to rebuild their once dominant team.</p>
   <p>Compete to gain the upperhand and out Jewball Super your fellow Jewballers! Throw out your lowest lowballs, fleece like true Jewballers must, because our Judaistic tendencies compel us to desire but one thing... the first place cash prize granted to the winning team!</p>
   <p>Now, to all veterans and rookies alike, set your sights on victory and have a Jewball Super Fantasy League™ time!</p>
