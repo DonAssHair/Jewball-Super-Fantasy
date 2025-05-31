@@ -246,7 +246,21 @@
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
+    <p>The draft order each year will be determined by non-playoff team's Max Point For (Max PF) from the previous season (in reverse order), then by the playoff teams' final standings.</p>
+
+    <p>Draft Order:</p>
+    <p>    1) Max PF</p>
+    <p>    2) Max PF</p>
+    <p>    3) Max PF</p>
+    <p>    4) Max PF</p>
+    <p>    5) Max PF</p>
+    <p>    6) Max PF</p>
+    <p>    7) Winner of the 5th Place Game</p>
+    <p>    8) Loser of the 5th Place Game</p>
+    <p>    9) Loser of the 3rd Place Game</p>
+    <p>    10) Winner of the 3rd Place Game</p>
+    <p>    11) Runner-Up</p>
+    <p>    12) Champion</p>
 
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
     <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
