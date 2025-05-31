@@ -229,17 +229,17 @@
     
     <h3 class="subSectionHeading" bind:this={oneThree}>1.3 Waiver Wire</h3>
 
-        <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
+    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
 
-        <p>FAAB budgets will reset each season in January.</p>
+    <p>FAAB budgets will reset each season in January.</p>
 
 
 
     <h3 class="subSectionHeading" bind:this={oneFour}>1.4 Taxi Squad</h3>
 
-        <p>Each team will have 5 taxi squad spots. Players on the taxi squad do not count against the active roster limit and cannot be started unless promoted to the main roster. To be eligible for taxi squad, a player must have no more than 2 years of experience in the NFL. Experience is calculated based on completed NFL seasons.</p>
+    <p>Each team will have 5 taxi squad spots. Players on the taxi squad do not count against the active roster limit and cannot be started unless promoted to the main roster. To be eligible for taxi squad, a player must have no more than 2 years of experience in the NFL. Experience is calculated based on completed NFL seasons.</p>
 
-        <p>The deadline to move players into the taxi squad is the start of the regular season. After this point, no additional players may be added. However, players may be promoted from the taxi squad to active roster at any time during the season. Once a player is removed from the taxi squad, they are no longer eligible to return to it.</p>
+    <p>The deadline to move players into the taxi squad is the start of the regular season. After this point, no additional players may be added. However, players may be promoted from the taxi squad to active roster at any time during the season. Once a player is removed from the taxi squad, they are no longer eligible to return to it.</p>
 
 
 
