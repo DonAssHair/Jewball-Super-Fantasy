@@ -114,8 +114,8 @@
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(two)}>Section 2: Drafting</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>2.1 Draft Order</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwo)}>2.2 Start-Up Draft</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>2.1 Start-Up Draft</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwo)}>2.2 Draft Order</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.3 Rookie Drafts</h4>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Section 3: Scoring System</h3>
@@ -244,8 +244,12 @@
 
 
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
-    
-    <h3 bind:this={twoOne}>2.1 Draft Order</h3>
+
+    <h3 bind:this={twoOne}>2.1 Start-Up Draft</h3>
+    <p>The start-up draft will take place once the league has filled and every manager has paid their league fee. The startup draft order will be randomized in a reasonable fashion and published on sleeper. The draft wll be a 30-round snake-draft, 3rd-round reversal, with the first 5 rounds having a 10-minute timer. Players are expected to be active and present at the draft party (or at least be active on the app to make your picks in a timely manner). Following the first 5 rounds, the pick timer will be expanded to 8 hours per pick, with the timer being paused overnight. Those who fail to pick in the alloted time during the draft will be auto-picked.</p>
+    <p>Start-up draft picks are tradeable before and during the draft. If a trade is being discussed, inform the commissioner and the timer will be paused for negotiations (only during first 5 rounds). Timer will be resumed following the trade, however, the timer will not restard and will resume from where it was last at (so let the commissioner know to pause the timer as soon as possible).</p>
+
+    <h3 bind:this={twoTwo}>2.2 Draft Order</h3>
     <p>The draft order each year for rookie drafts will be determined by non-playoff teams' Max Point For (Max PF) from the previous season (in reverse order), then by the playoff teams' final standings.</p>
     <p>    <p/>
     <p>Draft Order:</p>
@@ -263,13 +267,9 @@
     <p>    12) Champion</p>
     <p>    <p/>
     <p>The draft will be in a linear fashion, meaning a team with pick 1.01 will also have pick 2.01, 3.01, etc.<p/>
-
-    <h3 bind:this={twoTwo}>2.2 Start-Up Draft</h3>
-    <p>The start-up draft will take place once the league has filled and every manager has paid their league fee. The startup draft order will be randomized in a reasonable fashion and published on sleeper. The draft wll be a 30-round snake-draft, with the first 5 rounds having a 10-minute timer, as players are expected to be active and present at the draft party (or at least be active on the app to make your picks in a timely manner)</p>
-    <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
     
     <h3 bind:this={twoThree}>2.3 Rookie Drafts</h3>
-    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
+    <p>Each offseason, there will be a 4-round rookie draft held no earlier than one week after the real NFL draft and no later than one month after it. The rookie draft will not commence until all managers contribute their yearly buy-in. Each team will have 24 hours to make their pick, with managers being expected to make their picks in a timely manner. Draft picks may be traded anytime. No timer pauses available.</p>
     
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
