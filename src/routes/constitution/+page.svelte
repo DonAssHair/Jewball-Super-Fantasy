@@ -115,8 +115,8 @@
     <h3 class="noUnderscore clickable" onclick={() => goToSection(two)}>Section 2: Drafting</h3>
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>2.1 Draft Order</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwo)}>2.2 Start-Up Draft</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.3 Rookie Drafts</h4>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Section 3: Scoring System</h3>
     
@@ -246,8 +246,8 @@
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be determined by non-playoff team's Max Point For (Max PF) from the previous season (in reverse order), then by the playoff teams' final standings.</p>
-
+    <p>The draft order each year for rookie drafts will be determined by non-playoff teams' Max Point For (Max PF) from the previous season (in reverse order), then by the playoff teams' final standings.</p>
+    <p>    <p/>
     <p>Draft Order:</p>
     <p>    1) Max PF</p>
     <p>    2) Max PF</p>
@@ -261,20 +261,20 @@
     <p>    10) Winner of the 3rd Place Game</p>
     <p>    11) Runner-Up</p>
     <p>    12) Champion</p>
-
+    <p>    <p/>
     <p>The draft will be in a linear fashion, meaning a team with pick 1.01 will also have pick 2.01, 3.01, etc.<p/>
 
-    <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
+    <h3 bind:this={twoTwo}>2.2 Start-Up Draft</h3>
+    <p>The start-up draft will take place once the league has filled and every manager has paid their league fee. The startup draft order will be randomized in a reasonable fashion and published on sleeper. The draft wll be a 30-round snake-draft, with the first 5 rounds having a 10-minute timer, as players are expected to be active and present at the draft party (or at least be active on the app to make your picks in a timely manner)</p>
     <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
     
-    <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
+    <h3 bind:this={twoThree}>2.3 Rookie Drafts</h3>
     <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
     
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (it follows typical .5PPR Scoring, a 1.0 point PPR TE Premium, plus a -1 dock on a QB sack, and a -2 dock on a QB int). The scoring system will never change without a majority league vote.</p>
+    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (it follows typical .5PPR Scoring, a 1.0 point PPR TE Premium, plus a -1 dock on a QB sack and a -2 dock on a QB int). The scoring system will never change without a majority league vote.</p>
     
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
@@ -317,8 +317,8 @@
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
+        <li>1st place: {dues * 9}$</li>
+        <li>2nd place: {dues * 2}$</li>
         <li>3rd place: {dues}$</li>
     </ul>
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
