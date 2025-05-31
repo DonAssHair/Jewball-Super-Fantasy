@@ -262,6 +262,8 @@
     <p>    11) Runner-Up</p>
     <p>    12) Champion</p>
 
+    <p>The draft will be in a linear fashion, meaning a team with pick 1.01 will also have pick 2.01, 3.01, etc.<p/>
+
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
     <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
     <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
