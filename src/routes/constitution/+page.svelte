@@ -120,7 +120,7 @@
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Section 3: Scoring System</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(threeOne)}>3.1 Voting on Scoring System</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(threeOne)}>3.1 Scoring System</h4>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: Postseason</h3>
     
@@ -300,7 +300,7 @@
         <li>2-Pt Conversion: 2</li>
         <li>Tight End Premium: 1 per reception</li>
 
-            <p class="underscore">Miscellaneous</p>
+        <p class="underscore">Miscellaneous</p>
     <ul>
         <li>Fumble Lost: -2</li>
         <li>Fumble Recovery TD: 6</li>
@@ -309,7 +309,9 @@
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
+    <p>The regular season runs from Week 1 through Week 14 of the NFL schedule. Each week two teams face off in a head-to-head game, with ties being recorded as ties.</p>
+
+    <p>At the end of Week 13, 6 qualifying teams will make the playoffs. The first round of playoffs will commence in week 14. The top-2 seeds will receive a first-round bye. </p>
     
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
