@@ -178,9 +178,9 @@
             <table class="positionMaximums">
                 <tbody>
                 <tr><td>QB</td><td class="right">6</td></tr>
-                <tr><td>RB</td><td class="right">14</td></tr>
-                <tr><td>WR</td><td class="right">14</td></tr>
-                <tr><td>TE</td><td class="right">8</td></tr>
+                <tr><td>RB</td><td class="right">18</td></tr>
+                <tr><td>WR</td><td class="right">18</td></tr>
+                <tr><td>TE</td><td class="right">10</td></tr>
                 </tbody>
             </table>
         </div>
@@ -188,7 +188,7 @@
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
-    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Final decision on trade vetoes and collusion will be made by commissioner council. All  Tradable assets include players, draft picks, and FAAB $.</p>
+    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or suspected of collusion. Final decision on trade vetoes and collusion will be made by the commissioner council. Tradable assets include players, draft picks, and FAAB $.</p>
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
@@ -222,7 +222,7 @@
     
     <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
     <div class="subBlock">
-        <p>A veto may only be carried out if a majority consensus is reached among commissioner council on the invalidity of the trade (though players may suggest for a trade to be looked in to). A veto may only be carried out on the basis of collusion or, based on the discretion of the council, extreme and league breaking inequality which threatens to skew the balance of power among leaguemates.</p>
+        <p>A veto may only be carried out if a majority consensus is reached among the commissioner council on the invalidity of the trade (though players may suggest for a trade to be looked in to). A veto may only be carried out on the basis of collusion or, based on the discretion of the council, extreme and league breaking inequality which threatens to skew the balance of power among leaguemates with little return for the opposite side of the trade.</p>
     </div>
     
     
@@ -247,7 +247,7 @@
 
     <h3 bind:this={twoOne}>2.1 Start-Up Draft</h3>
     <p>The start-up draft will take place once the league has filled and every manager has paid their league fee. The startup draft order will be randomized in a reasonable fashion and published on sleeper. The draft wll be a 30-round snake-draft, 3rd-round reversal, with the first 5 rounds having a 10-minute timer. Players are expected to be active and present at the draft party (or at least be active on the app to make your picks in a timely manner). Following the first 5 rounds, the pick timer will be expanded to 8 hours per pick, with the timer being paused overnight. Those who fail to pick in the alloted time during the draft will be auto-picked.</p>
-    <p>Start-up draft picks are tradeable before and during the draft. If a trade is being discussed, inform the commissioner and the timer will be paused for negotiations (only during first 5 rounds). Timer will be resumed following the trade, however, the timer will not restard and will resume from where it was last at (so let the commissioner know to pause the timer as soon as possible).</p>
+    <p>Start-up draft picks are tradeable before and during the draft. If a trade is being discussed, inform the commissioner and the timer will be paused for negotiations (only during first 5 rounds). Timer will be resumed following the trade, however, the timer will not restart and will resume from where it was last at (so let the commissioner know to pause the timer as soon as possible).</p>
 
     <h3 bind:this={twoTwo}>2.2 Draft Order</h3>
     <p>The draft order each year for rookie drafts will be determined by non-playoff teams' Max Point For (Max PF) from the previous season (in reverse order), then by the playoff teams' final standings.</p>
@@ -274,8 +274,38 @@
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (it follows typical .5PPR Scoring, a 1.0 point PPR TE Premium, plus a -1 dock on a QB sack and a -2 dock on a QB int). The scoring system will never change without a majority league vote.</p>
-    
+    <p>*The scoring system will never change without a majority league vote.*</p>
+
+    <p class="underscore">Passing</p>
+    <ul>
+        <li>Passing Yards: 1 point every 25 yards (0.04 per yard)</li>
+        <li>Passing TD: 4</li>
+        <li>2-Pt Conversion: 2</li>
+        <li>Pass Intercepted: -2</li>
+        <li>QB Sack: -1</li>
+    </ul>
+
+    <p class="underscore">Rushing</p>
+    <ul>
+        <li>Rushing Yards: 1 point every 10 yards (0.10 per yard)</li>
+        <li>Rushing TD: 6</li>
+        <li>2-Pt Conversion: 2</li>
+    </ul>
+
+        <p class="underscore">Receiving</p>
+    <ul>
+        <li>Reception: 0.5</li>
+        <li>Receiving Yards: 1 point every 10 yards (0.10 per yard)</li>
+        <li>Receiving TD: 6</li>
+        <li>2-Pt Conversion: 2</li>
+        <li>Tight End Premium: 1 per reception</li>
+
+            <p class="underscore">Miscellaneous</p>
+    <ul>
+        <li>Fumble Lost: -2</li>
+        <li>Fumble Recovery TD: 6</li>
+    </ul>
+
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
