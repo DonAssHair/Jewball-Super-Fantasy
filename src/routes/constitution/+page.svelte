@@ -311,18 +311,16 @@
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
     <p>The regular season runs from Week 1 through Week 14 of the NFL schedule. Each week two teams face off in a head-to-head game, with ties being recorded as ties.</p>
 
-    <p>At the end of Week 13, 6 qualifying teams will make the playoffs. The first round of playoffs will commence in week 14. The top-2 seeds will receive a first-round bye. </p>
+    <p>At the end of Week 13, 6 qualifying teams will make the playoffs. The first round of playoffs will commence in week 14. The top-2 seeds will receive a first-round bye. Playoff seeding is determined as described below.</p>
     
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
+    <p>Playoff seeding will be structured as follows:</p>
 
     <ol>
-        <li>Points For</li>
+        <li>Overall Record</li>
+        <li>Points For (PF)</li>
         <li>Head 2 Head Record</li>
-        <li>Division Record</li>
-        <li>Total Points Against</li>
-        <li>Coin Flip</li>
-        <li>Duel to the death</li>
+        <li>Higher Points Against (PA)</li>
     </ol>
 
     <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
