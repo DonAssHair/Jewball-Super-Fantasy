@@ -122,10 +122,11 @@
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(threeOne)}>3.1 Scoring System</h4>
     
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: Postseason</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: Season Schedule</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>4.1 Playoffs</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>4.1 Regular Season</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.2 Playoffs</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourThree)}>4.3 Seeding Tiebreakers</h4>
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(five)}>Section 5: Tanking Policy</h3>
     
@@ -306,15 +307,16 @@
         <li>Fumble Recovery TD: 6</li>
     </ul>
 
-    <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
-    
-    <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>The regular season runs from Week 1 through Week 14 of the NFL schedule. Each week two teams face off in a head-to-head game, with ties being recorded as ties.</p>
+    <h2 class="sectionHeading" bind:this={four}>Section 4 Season Schedule</h2>
+   
+    <h3 bind:this={fourOne}>4.1 S</h3>
+    <p>The regular season runs from Week 1 through Week 13 of the NFL schedule. Each week two teams face off in a head-to-head game as outlined by the schedule. Ties are recorded as ties.</p>
 
+    <h3 bind:this={fourTwo}>4.2 Playoffs</h3>
     <p>At the end of Week 13, 6 qualifying teams will make the playoffs. The first round of playoffs will commence in week 14. The top-2 seeds will receive a first-round bye. Playoff seeding is determined as described below.</p>
     
-    <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>Playoff seeding will be structured as follows:</p>
+    <h3 bind:this={fourThree}>4.3 Seeding Tiebreakers</h3>
+    <p>Playoff seeding will be structured as follows, with priority starting from top to bottom:</p>
 
     <ol>
         <li>Overall Record</li>
