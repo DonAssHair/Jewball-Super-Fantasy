@@ -189,7 +189,7 @@
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
-    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or suspected of collusion. Final decision on trade vetoes and collusion will be made by the commissioner council. Tradable assets include players, draft picks, and FAAB $.</p>
+    <p>Trading of players and draft picks (up to 3 drafts away) is allowed. Trades will process immediately and will be reversed if vetoed or suspected of collusion. Final decision on trade vetoes and collusion will be made by the commissioner council. Tradable assets include players, draft picks, and FAAB $.</p>
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
@@ -201,7 +201,7 @@
             <li>Third Offense – A league meeting of all members not involved in any of the improper trades/activity in question will take place to discuss next steps</li>
         </ul>
 
-        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.  </p>
+        <p>All trades that are found guilty of collusion will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.  </p>
 
         <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade. </p>
     </div>
@@ -230,7 +230,7 @@
     
     <h3 class="subSectionHeading" bind:this={oneThree}>1.3 Waiver Wire</h3>
 
-    <p>FAAB Waiver wire system. Each team will begin the season with $200. Although you may trade FAAB budget, note that your total balance CANNOT exceed $200. Also note that budget does not rollover from year to year, and resets after the rookie draft. $0 bids are allowed. Bids will process Tuesdays and Saturdays at 8AM EST. After waivers clear on Saturdays all waiver wire players will become free agents until the end of Sunday.</p>
+    <p>FAAB Waiver wire system. Each team will begin the season with $200. Although you may trade FAAB budget, note that your total balance CANNOT exceed $200. Also note that budget does not rollover from year to year, and resets after the rookie draft. $0 bids are allowed. Bids will process Tuesdays and Saturdays at 8AM EST. After waivers clear on Saturdays all waiver wire players will be released and become free agents.</p>
 
     <p>FAAB budgets will reset each season in following the rookie draft.</p>
 
