@@ -353,7 +353,7 @@
     <p>In the case a manager chooses to retire from the league, it is requested that they do so during the offseason at least 2 months before the season begins. In the case that one chooses to retire in the appropriate timeframe AND is able to find a replacement manager to takeover their team, they will get a full refund (including deposits on future years). In the case the retiring manager fails to find a replacement, they will only be guarenteed a refund of their deposit for the current year. Finally, any other retirement situation will result in NO REFUND WHATSOEVER. This includes midseason dropouts, abondonment, etc.</p>
     
     <h3 bind:this={sixThree}>6.3 Replacing Orphaned Teams</h3>
-    <p>In the case that a manager drops from the league midseason, the commissioner will ONLY set weekly lineups for the orphaned team, avoiding any direct control. A replacement manager should be found as quickly as possible, to aid in this incoming manager should be offered at least a 50% discount on their entrance fees.</p>
+    <p>In the case that a manager drops from the league midseason, the commissioner will ONLY set weekly lineups for the orphaned team, avoiding any direct control. A replacement manager should be found as quickly as possible. To aid in this, incoming manager should be offered at least a 50% discount on their entrance fees.</p>
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
