@@ -230,7 +230,7 @@
     
     <h3 class="subSectionHeading" bind:this={oneThree}>1.3 Waiver Wire</h3>
 
-    <p>FAAB Waiver wire system. Each team will begin the season with $200. $0 bids are allowed. Bids will process Tuesdays and Saturdays at 8AM EST. After waivers clear on Saturdays all waiver wire players will become free agents until the end of Sunday.</p>
+    <p>FAAB Waiver wire system. Each team will begin the season with $200. Although you may trade FAAB budget, note that your total balance CANNOT exceed $200. Also note that budget does not rollover from year to year, and resets after the rookie draft. $0 bids are allowed. Bids will process Tuesdays and Saturdays at 8AM EST. After waivers clear on Saturdays all waiver wire players will become free agents until the end of Sunday.</p>
 
     <p>FAAB budgets will reset each season in following the rookie draft.</p>
 
