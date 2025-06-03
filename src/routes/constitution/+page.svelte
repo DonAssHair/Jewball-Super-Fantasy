@@ -309,7 +309,7 @@
 
     <h2 class="sectionHeading" bind:this={four}>Section 4 Season Schedule</h2>
    
-    <h3 bind:this={fourOne}>4.1 S</h3>
+    <h3 bind:this={fourOne}>4.1 Regular Season</h3>
     <p>The regular season runs from Week 1 through Week 13 of the NFL schedule. Each week two teams face off in a head-to-head game as outlined by the schedule. Ties are recorded as ties.</p>
 
     <h3 bind:this={fourTwo}>4.2 Playoffs</h3>
