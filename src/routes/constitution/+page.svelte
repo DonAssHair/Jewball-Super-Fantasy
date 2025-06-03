@@ -132,11 +132,11 @@
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4>
 
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(six)}>Section 6: Replacing Managers</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(six)}>Section 6: Orphan Teams and Manager Replacement</h3>
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>6.2 Retiring Managers</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>6.3 Replacing Orphaned Teams</h4>
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 7: League Finances</h3>
     
@@ -300,6 +300,7 @@
         <li>Receiving TD: 6</li>
         <li>2-Pt Conversion: 2</li>
         <li>Tight End Premium: 1 per reception</li>
+    </ul>
 
         <p class="underscore">Miscellaneous</p>
     <ul>
@@ -336,16 +337,23 @@
 
     <p>Finally, a manager who fails to submit a starting lineup or fails to replace inactive players who are injured, benched, or suspended is subject to commissioner sanctions. A manager showing indifference is different from an unavailable manager, if you will be unable to care for your team for an extended period of time, inform the commissioner so they can at least manage the start/sits in your lineup. Repeated indifference to at least set your starting lineup will result in removal from the league.</p>
 
-    <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
+    <h2 class="sectionHeading" bind:this={six}>Section 6 Orphan Teams and Manager Replacement</h2>
     
     <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
-    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
+    <p>Commissioner reserves the right to remove any manager (with no refund available) whom fails to consider and abide by the following:</p>
+   <ul>
+        <li>League payments should be made by the deadline</li>
+        <li>No form of cheating, collusion, bribery, nor throwing will be tolerated at any time</li>
+        <li>Managers should be consistently be active, returning texts and trade offers in a timely manner</li>
+        <li>Avoid conduct or transactions which may be detrimental to the sanctity of the league</li>
+        <li>Abide by ALL league rules listed here (and rules not listed here which may be considered general courtesy), abide by ALL commissioner rulings once they have been made</li>
+    </ul>
     
-    <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
-    <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
+    <h3 bind:this={sixTwo}>6.2 Retiring Managers</h3>
+    <p>In the case a manager chooses to retire from the league, it is requested that they do so during the offseason at least 2 months before the season begins. In the case that one chooses to retire in the appropriate timeframe AND is able to find a replacement manager to takeover their team, they will get a full refund (including deposits on future years). In the case the retiring manager fails to find a replacement, they will only be guarenteed a refund of their deposit for the current year. Finally, any other retirement situation will result in NO REFUND WHATSOEVER. This includes midseason dropouts, abondonment, etc.</p>
     
-    <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
+    <h3 bind:this={sixThree}>6.3 Replacing Orphaned Teams</h3>
+    <p>In the case that a manager drops from the league midseason, the commissioner will ONLY set weekly lineups for the orphaned team, avoiding any direct control. A replacement manager should be found as quickly as possible, to aid in this incoming manager should be offered at least a 50% discount on their entrance fees.</p>
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
