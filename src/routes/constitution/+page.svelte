@@ -250,6 +250,8 @@ their Taxi Squad onto their roster's bench, or to accept the claim from the oppo
 
     <p>For example, if a player was drafted in the 5th round, then compensatory pick would be a 4th or better. If a player on Taxi Squad was drafted 3rd round, then compensatory pick would be a 2nd or higher. It is slightly different for first round selections, however. A late 1st round pick on Taxi Squad (picks 6-12) will require a 1st and 2nd in compensation. An early 1st round pick (picks 1-6) will require two 1sts in compensation.</p>
 
+    <p>Managers have 5 attempts at poaching players between rookie drafts. The commissioner will keep track of the number of poaching attempts each manager has. An attempt counts as any offer sent for a Taxi Squad player.</p>
+
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
 
     <h3 bind:this={twoOne}>2.1 Start-Up Draft</h3>
