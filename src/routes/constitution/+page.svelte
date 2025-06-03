@@ -344,7 +344,7 @@
    <ul>
         <li>League payments should be made by the deadline</li>
         <li>No form of cheating, collusion, bribery, nor throwing will be tolerated at any time</li>
-        <li>Managers should be consistently be active, returning texts and trade offers in a timely manner</li>
+        <li>Managers should be consistently active, returning texts and trade offers in a timely manner</li>
         <li>Avoid conduct or transactions which may be detrimental to the sanctity of the league</li>
         <li>Abide by ALL league rules listed here (and rules not listed here which may be considered general courtesy), abide by ALL commissioner rulings once they have been made</li>
     </ul>
