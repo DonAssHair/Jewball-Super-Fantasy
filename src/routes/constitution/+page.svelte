@@ -243,7 +243,7 @@
 
     <p>The deadline to move players into the taxi squad is the start of the regular season. After this point, no additional players may be added. However, players may be promoted from the taxi squad to active roster at any time during the season. Once a player is removed from the taxi squad, they are no longer eligible to return to it.</p>
 
-    <h3 class="subSectionHeading" bind:this={oneFour}>1.4 Taxi Squad</h3>
+    <h3 class="subSectionHeading" bind:this={oneFive}>1.5 Taxi Squad Poaching</h3>
 
     <p>Every player on any manager's Taxi Squad is subject to being poached by opposing managers. A player may be poached anytime during the season or offseason (except during playoffs). Managers must make their claim on a Taxi Squad player they wish to poach from another manager between Tuesday and Friday. Once a player is claimed, the manager who has said player on their Taxi Squad has 48 hours to respond. In response, they have the choice to either elevate the claimed player from
 their Taxi Squad onto their roster's bench, or to accept the claim from the opposing manager. If the claim is accepted, then the manager who made the claim must send a compensatory draft pick equal to or greater than the round the claimed player was slected in +1 (If a player on Taxi Squad was drafted in start-up, then compensatory pick will be based player ADP in past rookie drafts).</p>
