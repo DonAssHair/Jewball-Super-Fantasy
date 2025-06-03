@@ -314,7 +314,9 @@
 
     <h3 bind:this={fourTwo}>4.2 Playoffs</h3>
     <p>At the end of Week 13, 6 qualifying teams will make the playoffs. The first round of playoffs will commence in week 14. The top-2 seeds will receive a first-round bye. Playoff seeding is determined as described below.</p>
-    
+
+    <p>At the end of week 13, the 6 teams who failed to make playoffs will be placed into a consolation bracket. The team which wins the consolation bracket will be awarded an extra pick at the end of Round 2 of the upcoming rookie draft (Pick 2.13). This pick cannot be traded.</p>
+
     <h3 bind:this={fourThree}>4.3 Seeding Tiebreakers</h3>
     <p>Playoff seeding will be structured as follows, with priority starting from top to bottom:</p>
 
