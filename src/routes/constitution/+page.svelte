@@ -1,6 +1,6 @@
 <script>
     import { dues } from '$lib/utils/helper';
-    let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree, oneFour;
+    let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree, oneFour, oneFive;
     let two, twoOne, twoTwo, twoThree;
     let three, threeOne;
     let four, fourOne, fourTwo, fourThree;
@@ -111,6 +111,7 @@
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneFour)}>1.4 Taxi Squad</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneFive)}>1.5 Taxi Squad Poaching</h4>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(two)}>Section 2: Drafting</h3>
     
@@ -242,7 +243,12 @@
 
     <p>The deadline to move players into the taxi squad is the start of the regular season. After this point, no additional players may be added. However, players may be promoted from the taxi squad to active roster at any time during the season. Once a player is removed from the taxi squad, they are no longer eligible to return to it.</p>
 
+    <h3 class="subSectionHeading" bind:this={oneFour}>1.4 Taxi Squad</h3>
 
+    <p>Every player on any manager's Taxi Squad is subject to being poached by opposing managers. A player may be poached anytime during the season or offseason (except during playoffs). Managers must make their claim on a Taxi Squad player they wish to poach from another manager between Tuesday and Friday. Once a player is claimed, the manager who has said player on their Taxi Squad has 48 hours to respond. In response, they have the choice to either elevate the claimed player from
+their Taxi Squad onto their roster's bench, or to accept the claim from the opposing manager. If the claim is accepted, then the manager who made the claim must send a compensatory draft pick equal to or greater than the round the claimed player was slected in +1 (If a player on Taxi Squad was drafted in start-up, then compensatory pick will be based player ADP in past rookie drafts).</p>
+
+    <p>For example, if a player was drafted in the 5th round, then compensatory pick would be a 4th or better. If a player on Taxi Squad was drafted 3rd round, then compensatory pick would be a 2nd or higher. It is slightly different for first round selections, however. A late 1st round pick on Taxi Squad (picks 6-12) will require a 1st and 2nd in compensation. An early 1st round pick (picks 1-6) will require two 1sts in compensation.</p>
 
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
 
