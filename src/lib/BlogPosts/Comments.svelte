@@ -13,44 +13,55 @@
     let errorMessage = '';
 
 
-    const addComment = async(e) => {
-        const {comment, author} = e.detail;
-        if(comment.trim() == "") {
-            // handle error
-            errorMessage = 'Comment cannot be empty';
-            open = true;
-            return;
-        }
-        const validAuthor = validateID(author);
-        if(!validAuthor) {
-            // handle error
-            errorMessage = 'Unauthorized user';
-            open = true;
-            return;
-        }
-
-        const res = await fetch(`/api/addBlogComments/${validAuthor}`, {
-            method: 'POST',
-            body: JSON.stringify({
-                comment: comment.trim(),
-                postID
-            })
-        })
-
-        const newComment = await res.json();
-
-        if(!res.ok) {
-            // handle error
-            errorMessage = newComment;
-            open = true;
-            return;
-        }
-
-        // add comment to others
-        comments = [...comments, newComment];
-        total++;
-        showWrite = false;
+   const addComment = async(e) => {
+    console.log('addComment function called');
+    console.log('Event detail:', e.detail);
+    
+    const {comment, author} = e.detail;
+    if(comment.trim() == "") {
+        console.log('Empty comment error');
+        errorMessage = 'Comment cannot be empty';
+        open = true;
+        return;
     }
+    const validAuthor = validateID(author);
+    console.log('Valid author:', validAuthor);
+    
+    if(!validAuthor) {
+        console.log('Invalid author error');
+        errorMessage = 'Unauthorized user';
+        open = true;
+        return;
+    }
+
+    console.log('Making API call to:', `/api/addBlogComments/${validAuthor}`);
+    const res = await fetch(`/api/addBlogComments/${validAuthor}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            comment: comment.trim(),
+            postID
+        })
+    })
+
+    console.log('API response status:', res.status);
+    const newComment = await res.json();
+    console.log('API response data:', newComment);
+
+    if(!res.ok) {
+        console.log('API error:', newComment);
+        errorMessage = newComment;
+        open = true;
+        return;
+    }
+
+    console.log('Adding comment to list');
+    comments = [...comments, newComment];
+    total++;
+    showWrite = false;
+}
 
     const validateID = (author) => {
         for(const uID in leagueTeamManagers.users) {
