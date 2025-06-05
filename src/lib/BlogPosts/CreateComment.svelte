@@ -1,18 +1,14 @@
 <script>
     import Button, {Label} from "@smui/button";
     import Textfield from "@smui/textfield";
-    import { createEventDispatcher } from 'svelte';
+	import { createEventDispatcher } from 'svelte';
 
     export let showWrite;
 
-    const dispatch = createEventDispatcher();
+	const dispatch = createEventDispatcher();
 
     const submit = () => {
-        console.log('Submit function called');
-        console.log('Comment:', comment);
-        console.log('Author:', author);
         dispatch('createComment', {comment, author});
-        console.log('Event dispatched');
     }
 
     let comment = '';
@@ -54,17 +50,17 @@
     </div>
 
     <div class="submitArea">
-        <Textfield class="shaped-outlined" variant="outlined" bind:value={author} label="Your Sleeper Username" />
-        <Button on:click={() => submit()} variant="unelevated">
+        <Textfield class="shaped-outlined" variant="outlined"bind:value={author} label="Your Sleeper Username" />
+        <Button onclick={() => submit()} variant="unelevated">
             <Label>Submit Comment</Label>
         </Button>
-        <Button on:click={() => toggleShow()} color="secondary" variant="unelevated">
+        <Button onclick={() => toggleShow()} color="secondary" variant="unelevated">
             <Label>Cancel</Label>
         </Button>
     </div>
 {:else}
     <div class="submitArea">
-        <Button on:click={() => toggleShow()} variant="unelevated">
+        <Button onclick={() => toggleShow()} variant="unelevated">
             <Label>Leave a Comment</Label>
         </Button>
     </div>
