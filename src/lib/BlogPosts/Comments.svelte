@@ -13,55 +13,44 @@
     let errorMessage = '';
 
 
-   const addComment = async(e) => {
-    console.log('addComment function called');
-    console.log('Event detail:', e.detail);
-    
-    const {comment, author} = e.detail;
-    if(comment.trim() == "") {
-        console.log('Empty comment error');
-        errorMessage = 'Comment cannot be empty';
-        open = true;
-        return;
-    }
-    const validAuthor = validateID(author);
-    console.log('Valid author:', validAuthor);
-    
-    if(!validAuthor) {
-        console.log('Invalid author error');
-        errorMessage = 'Unauthorized user';
-        open = true;
-        return;
-    }
+    const addComment = async(e) => {
+        const {comment, author} = e.detail;
+        if(comment.trim() == "") {
+            // handle error
+            errorMessage = 'Comment cannot be empty';
+            open = true;
+            return;
+        }
+        const validAuthor = validateID(author);
+        if(!validAuthor) {
+            // handle error
+            errorMessage = 'Unauthorized user';
+            open = true;
+            return;
+        }
 
-    console.log('Making API call to:', `/api/addBlogComments/${validAuthor}`);
-    const res = await fetch(`/api/addBlogComments/${validAuthor}`, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            comment: comment.trim(),
-            postID
+        const res = await fetch(`/api/addBlogComments/${validAuthor}`, {
+            method: 'POST',
+            body: JSON.stringify({
+                comment: comment.trim(),
+                postID
+            })
         })
-    })
 
-    console.log('API response status:', res.status);
-    const newComment = await res.json();
-    console.log('API response data:', newComment);
+        const newComment = await res.json();
 
-    if(!res.ok) {
-        console.log('API error:', newComment);
-        errorMessage = newComment;
-        open = true;
-        return;
+        if(!res.ok) {
+            // handle error
+            errorMessage = newComment;
+            open = true;
+            return;
+        }
+
+        // add comment to others
+        comments = [...comments, newComment];
+        total++;
+        showWrite = false;
     }
-
-    console.log('Adding comment to list');
-    comments = [...comments, newComment];
-    total++;
-    showWrite = false;
-}
 
     const validateID = (author) => {
         for(const uID in leagueTeamManagers.users) {
@@ -146,5 +135,5 @@
             <div class="date"><i>{parseDate(comment.sys.createdAt)}</i></div>
         </div>
     {/each}
-    <CreateComment bind:showWrite={showWrite} on:createComment={addComment}/>
+    <CreateComment bind:showWrite={showWrite} oncreateComment={addComment}/>
 </div>
