@@ -1,19 +1,18 @@
 <script>
     import Button, {Label} from "@smui/button";
     import Textfield from "@smui/textfield";
-	import { createEventDispatcher } from 'svelte';
+    import { createEventDispatcher } from 'svelte';
 
     export let showWrite;
 
-	const dispatch = createEventDispatcher();
+    const dispatch = createEventDispatcher();
 
-	const submit = () => {
-	    console.log('Submit function called');
-	    console.log('Comment:', comment);
-	    console.log('Author:', author);
-	    dispatch('createComment', {comment, author});
-	    console.log('Event dispatched');
-}
+    const submit = () => {
+        console.log('Submit function called');
+        console.log('Comment:', comment);
+        console.log('Author:', author);
+        dispatch('createComment', {comment, author});
+        console.log('Event dispatched');
     }
 
     let comment = '';
