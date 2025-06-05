@@ -9,7 +9,7 @@
 
     export let comments, total, leagueTeamManagers, postID;
 
-    let open = false;
+    let open = true;
     let errorMessage = '';
 
 
