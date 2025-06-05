@@ -7,8 +7,13 @@
 
 	const dispatch = createEventDispatcher();
 
-    const submit = () => {
-        dispatch('createComment', {comment, author});
+	const submit = () => {
+	    console.log('Submit function called');
+	    console.log('Comment:', comment);
+	    console.log('Author:', author);
+	    dispatch('createComment', {comment, author});
+	    console.log('Event dispatched');
+}
     }
 
     let comment = '';
