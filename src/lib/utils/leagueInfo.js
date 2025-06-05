@@ -9,9 +9,9 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 export const homepageText = `
 <script src="https://cdn.logwork.com/widget/countdown.js"></script>
 <a href="https://logwork.com/countdown-d72j" class="countdown-timer" data-timezone="America/Los_Angeles" data-textcolor="#ffffff" data-date="2025-09-04 17:20" data-background="#000000" data-digitscolor="#ffffff" data-unitscolor="#ffffff">2025 KICKOFF</a>
-<p></p>
+<p> </p>
   <p>Established 2025</p>
-<p></p>
+<p> </p>
   <p>Welcome to Jewball Super Fantasy League™! A place for the Jewballers to step onto the gridiron and forge their own glory through rivalry, brotherhood, blockbuster trades, and landmark rookie drafts.</p>
   <p>Stepping into Jewball Super Fantasy League is stepping into the land of dynasty builder Jewballers, contending Jewballers, and once great Jewballers, fallen from grace and forced to start over once more to rebuild their once dominant team.</p>
   <p>Compete to gain the upperhand and out Jewball Super your fellow Jewballers! Throw out your lowest lowballs, fleece like true Jewballers must, because our Judaistic tendencies compel us to desire but one thing... the first place cash prize granted to the winning team!</p>
