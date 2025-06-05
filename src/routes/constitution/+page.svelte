@@ -307,7 +307,7 @@ their Taxi Squad onto their roster's bench, or to accept the claim from the oppo
         <li>Receiving Yards: 1 point every 10 yards (0.10 per yard)</li>
         <li>Receiving TD: 6</li>
         <li>2-Pt Conversion: 2</li>
-        <li>Tight End Premium: 1 per reception</li>
+        <li>Tight End Premium: 0.5 per reception</li>
     </ul>
 
         <p class="underscore">Miscellaneous</p>
