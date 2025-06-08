@@ -190,7 +190,7 @@
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
-    <p>Trading of players and draft picks (up to 3 drafts away) is allowed. Trades will process immediately but will be reversed if suspected of collusion or vetoed for any other reason. Final decision on trade vetoes and collusion will be made by the commissioner council. Tradable assets include players, draft picks, and FAAB $.</p>
+    <p>Trading of players and draft picks (up to 3 drafts away) is allowed. Trades will process immediately but will be reversed if suspected of collusion or if vetoed for any other reason. Final decision on trade vetoes and collusion will be made by the commissioner council. Tradable assets include players, draft picks, and FAAB $.</p>
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
