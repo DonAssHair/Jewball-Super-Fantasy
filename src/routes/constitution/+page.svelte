@@ -368,7 +368,7 @@ their Taxi Squad onto their roster's bench, or to accept the claim from the oppo
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
     <p>Yearly league dues are set at {dues}$. However, buy-in will be set at $50 as players will be required to pay for their first two years in the league up-front. Dues will be collected through Venmo (my account name is @SCXMMER), as it will allow for public transactions which can easily be tracked by the whole league. If you prefer an alternative payment method, please contact commissioner. Collection will be sent out no later than TBD. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be added to their payment and will go towards the payouts at the end of the year.</p>
 
-    <p>IMPORTANT: It is also required that managers pay ahead of time for future year buy-ins IF they wish to trade future draft picks (e.g., if I wish to trade away my 2027 1st, I am required to pay my 2027 buy-in fee). You must pay 100% of the future buy-in upfront BEFORE completing any trades involving that year's draft picks.</p>
+    <p>IMPORTANT: It is also required that managers pay ahead of time for future year buy-ins IF they wish to trade future draft picks (e.g., if I wish to trade away my 2027 1st, I am required to pay my 2027 buy-in fee). You must pay 100% of the future buy-in upfront BEFORE completing any trades involving that year's draft picks. If a manager fails to take this into account their trade will be vetoed.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
