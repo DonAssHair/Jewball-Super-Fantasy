@@ -209,7 +209,7 @@
 
     <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players Prohibition</h4>
     <div class="subBlock">
-        <p>Any player traded from a team may not be re-acquired via trade within the same season of the original trade (up until week 13, does not include post-championship). Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
+        <p>Any player traded from a team may not be re-acquired via trade within the same season of the original trade (up until week 14, does not include post-championship). Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
     </div>
     
     <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
