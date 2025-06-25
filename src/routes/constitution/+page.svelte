@@ -142,8 +142,9 @@
     <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 7: League Finances</h3>
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>7.1 League Dues</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenTwo)}>7.2 Payout</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenThree)}>7.3 Raising Dues</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenFour)}>7.4 The Hat Trick Clause</h4>
     
     
     <hr />
@@ -380,6 +381,9 @@ their Taxi Squad onto their roster's bench, or to accept the claim from the oppo
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout.</p>
     
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
-    <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+    <p>A 2/3 majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+
+     <h3 bind:this={sevenFour}>7.4 The Hat Trick Clause</h3>
+    <p>In the event that a manager wins three straight championships, the league will reset and a new startup draft will be held. Managers will be able to protect 1 of their players before the startup draft. Same startup rules apply as discussed earlier. A restart can also be voted on and passed via a 3/4 majority vote.</p>
 
 </div>
