@@ -19,8 +19,8 @@ import { dynasty } from './utils/helper';
             separator: true,
         },
         {
-            name: "FantasyPros Dynasty Trade Value Chart",
-            url: `https://www.fantasypros.com/${today.getFullYear()}/${today.getMonth() + 1}/fantasy-football-rankings-dynasty-trade-value-chart-${today.toLocaleString('default', { month: 'long' }).toLowerCase()}-${today.getFullYear()}-update/`,
+            name: "KTC Dynasty Trade Calculator",
+            url: "https://keeptradecut.com/trade-calculator?var=5&pickVal=0&leagueSize=12&teamOne=&teamTwo=&format=2&isStartup=1&tep=0",
             icon: "assessment",
             premium: false,
             separator: true,
