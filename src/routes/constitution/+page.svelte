@@ -163,7 +163,7 @@
     <p>David A.</p>
     <p>Adrian P. F.</p>
     <p>Finlay R.</p>
-    <p>The Commissioner Council is to be made up of three league members appointed by the Commissioner based on ball-knowledge and perceived virtue. The purpose of the council is to overview potentially league-breaking trades/moves and uphold the competitive nature of the league. Any council decisions are subject to being overturned by the league via a 3/4 majority vote. The Council only has authority to make decisions on trade vetoes, where vetoes should be reserved for extreme cases only.</p>
+    <p>The Commissioner Council is to be made up of three league members appointed by the Commissioner based on ball-knowledge and perceived virtue. The purpose of the council is to overview potentially league-breaking trades/moves and uphold the competitive nature of the league. Any council decisions are subject to being overturned by the league via a 3/4 majority vote. The Council only has authority to make decisions on trade vetoes, where vetoes should be reserved for extreme cases only as detailed in section 1.2.</p>
 
     <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
     
