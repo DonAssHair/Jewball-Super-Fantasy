@@ -1,4 +1,4 @@
-o/*   STEP 1   */
+/*   STEP 1   */
 export const leagueID = "1227750085366927360"; // your league ID
 export const leagueName = "Jewball Super Fantasy Football"; // your league name
 export const dues = 25; // (optional) used in template constitution page
