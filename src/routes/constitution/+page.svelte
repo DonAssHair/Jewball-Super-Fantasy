@@ -241,7 +241,7 @@
     
     <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
     <div class="subBlock">
-        <p>A veto may only be carried out if a majority consensus is reached among the commissioner council on the invalidity of the trade (though players may suggest for a trade to be looked in to). A veto may only be carried out on the basis of collusion or, based on the discretion of the council, extreme and league breaking inequality which threatens to skew the balance of power among leaguemates with little return for the opposite side of the trade.</p>
+        <p>A veto may only be carried out if a majority consensus is reached among the commissioner council on the invalidity of the trade (though players may suggest for a trade to be looked in to). A veto may only be carried out on the basis of collusion or, based on the discretion of the council, extreme and league breaking inequality which threatens to skew the balance of power among leaguemates with little return for the opposite side of the trade. A "bad trade" is not veto worthy. A vetoable trade must truly shift the balance-of-power in an irreparable way.</p>
     </div>
     
     
