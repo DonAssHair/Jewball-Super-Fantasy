@@ -1,5 +1,6 @@
 <script>
     import { dues } from '$lib/utils/helper';
+    let zero, zeroOne, zeroTwo;
     let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree, oneFour, oneFive;
     let two, twoOne, twoTwo, twoThree;
     let three, threeOne;
@@ -99,7 +100,10 @@
     <h1 class="noUnderscore">JEWBALL SUPER FANTASY FOOTBALL CONSTITUTION</h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
-    
+
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(zero)}>Section 0: Commissioner and Commissioner Council</h3>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(zeroOne)}>0.1 Commissioner</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(zeroTwo)}>0.2 Commissioner Council</h4>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(one)}>Section 1: Roster</h3>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
@@ -148,7 +152,19 @@
     
     
     <hr />
+
+    <h2 class="sectionHeading" bind:this={zero}>Section 0 Commissioner and Commissioner Council</h2>
+    <h3 class="subSectionHeading" bind:this={zeroOne}>0.1 Commissioner</h3>
+    <p>Commissioner is currently: Jacob W.</p>
+    <p>If commissioner spot is vacant, a new commissioner may be voted into power through a 3/4 majority vote by the league</p>
     
+    <h3 class="subSectionHeading" bind:this={zeroTwo}>0.2 Commissioner Council</h3>
+    <p>Current Commissioner Council members:</p>
+    <p>David A.</p>
+    <p>Adrian P. F.</p>
+    <p>Finlay R.</p>
+    <p>The Commissioner Council is to be made up of three league members appointed by the Commissioner based on ball-knowledge and perceived virtue. The purpose of the council is to overview potentially league-breaking trades/moves and uphold the competitive nature of the league. Any council decisions are subject to being overturned by the league via a 3/4 majority vote. The Council only has authority to make decisions on trade vetoes, where vetoes should be reserved for extreme cases only.</p>
+
     <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
