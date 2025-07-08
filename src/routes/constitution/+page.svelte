@@ -156,7 +156,7 @@
     <h2 class="sectionHeading" bind:this={zero}>Section 0 Commissioner and Commissioner Council</h2>
     <h3 class="subSectionHeading" bind:this={zeroOne}>0.1 Commissioner</h3>
     <p>Commissioner is currently: Jacob W.</p>
-    <p>If commissioner spot is vacant, a new commissioner may be voted into power through a 3/4 majority vote by the league</p>
+    <p>If commissioner spot is vacant, a new commissioner may be voted into power through a 3/4 majority vote by the league. There is no reliable way to remove a shitty commissioner. If the current Commissioner is shitty, vacate the league and restart Jewball under a new league.</p>
     
     <h3 class="subSectionHeading" bind:this={zeroTwo}>0.2 Commissioner Council</h3>
     <p>Current Commissioner Council members:</p>
