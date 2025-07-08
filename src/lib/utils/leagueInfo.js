@@ -8,7 +8,7 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 /*   STEP 2   */
 export const homepageText = `
 <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-<a href="https://logwork.com/countdown-d72j" class="countdown-timer" data-timezone="America/Los_Angeles" data-textcolor="#ffffff" data-date="2025-09-04 17:20" data-background="#000000" data-digitscolor="#ffffff" data-unitscolor="#ffffff">2025 KICKOFF</a>
+</a> href="https://logwork.com/countdown-d72j" class="countdown-timer" data-timezone="America/Los_Angeles" data-textcolor="#ffffff" data-date="2025-09-04 17:20" data-background="#000000" data-digitscolor="#ffffff" data-unitscolor="#ffffff">2025 KICKOFF</a>
 
   <p>Welcome to Jewball Super Fantasy League™! Established 2025. Jewball™. Super™.<p>
 `;
