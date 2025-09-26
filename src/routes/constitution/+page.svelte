@@ -300,7 +300,7 @@ their Taxi Squad onto their roster's bench, or to accept the claim from the oppo
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>*The scoring system will never change without a majority league vote.*</p>
+    <p>*The scoring system will never change without a majority league vote. Scoring changes may be suggested and voted upon during the offseason.*</p>
 
     <p class="underscore">Passing</p>
     <ul>
