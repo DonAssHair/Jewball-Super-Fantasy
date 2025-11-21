@@ -276,7 +276,7 @@ their Taxi Squad onto their roster's bench, or to accept the claim from the oppo
     <p>Start-up draft picks are tradeable before and during the draft. Please note that the timer will carry-over after a trade, it does not reset if a trade is made during selection.</p>
 
     <h3 bind:this={twoTwo}>2.2 Draft Order</h3>
-    <p>The draft order each year for rookie drafts will be determined by non-playoff teams' Max Point For (Max PF) from the previous season (in reverse order), then by the playoff teams' final standings.</p>
+    <p>The draft order each year for rookie drafts will be determined by non-playoff teams' Max Point For (Max PF) from the previous season (in reverse order), then by the playoff teams' final standings. Max PF will only be counted during the season, up untik Week 14.</p>
     <p>    <p/>
     <p>Draft Order:</p>
     <p>    1) Max PF</p>
